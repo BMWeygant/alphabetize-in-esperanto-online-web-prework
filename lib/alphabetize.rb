@@ -1,4 +1,4 @@
 def alphabetize(arr)
   # code here
-  arr.sort_by {|word| word.name.downcase}
+  arr.sort_by!{|word| word.name.downcase}
 end
